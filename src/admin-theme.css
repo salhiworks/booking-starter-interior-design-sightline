@@ -1,0 +1,10 @@
+/*
+ * The packaged dashboard keeps its own design. The site brands it with one
+ * thing — its accent, per appearance (INTEGRATION.md §10). Sightline's brand
+ * colour is a deep bottle green that carries white text, so Light uses it as
+ * is; on the dark dashboard a deep green fill would sink into the background, so
+ * Dark uses a pale sage with near-black text. Owner monogram, primary buttons,
+ * Confirm, focus rings, selection and the schedule's "now" line all follow it.
+ */
+:root .pbe-admin[data-mode='light'] { --pbe-accent: #2e4a3b; --pbe-accent-text: #ffffff; } /* ≈10:1 white on green; ≈10:1 on white */
+:root .pbe-admin[data-mode='dark']  { --pbe-accent: #a9cbb5; --pbe-accent-text: #0f1c15; } /* ≈10:1 on a near-black dashboard; dark text ≈10:1 */

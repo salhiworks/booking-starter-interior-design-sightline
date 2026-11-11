@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en-US" data-headings="serif">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Lintel Interiors — interior design consultations in Providence, RI</title>
+    <meta name="description" content="An independent interior design studio in Providence: one-to-one consultations for single rooms, small spaces and older homes — layout, styling, colour and materials. Book a consultation online." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Lintel Interiors — interior design consultations in Providence, RI" />
+    <meta property="og:description" content="An independent interior design studio in Providence: one-to-one consultations for single rooms, small spaces and older homes — layout, styling, colour and materials. Book a consultation online." />
+    <meta name="theme-color" content="#f4f1eb" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <!-- The hero photo (the default in src/content/site.ts): wide from 600 px, a 4:3 crop below.
+         imagesizes must match HERO_SIZES / SMALL in src/components/Hero.tsx. -->
+    <link
+      rel="preload"
+      as="image"
+      type="image/avif"
+      media="(min-width: 600px)"
+      imagesrcset="/photos/hero-sideboard-800.avif 800w, /photos/hero-sideboard-1200.avif 1200w, /photos/hero-sideboard-1600.avif 1600w, /photos/hero-sideboard-2000.avif 2000w"
+      imagesizes="(min-width: 960px) 58vw, 100vw"
+      fetchpriority="high"
+    />
+    <link
+      rel="preload"
+      as="image"
+      type="image/avif"
+      media="(max-width: 599px)"
+      imagesrcset="/photos/hero-sideboard-phone-480.avif 480w, /photos/hero-sideboard-phone-800.avif 800w, /photos/hero-sideboard-phone-1200.avif 1200w"
+      imagesizes="100vw"
+      fetchpriority="high"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

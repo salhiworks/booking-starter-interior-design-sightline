@@ -6,7 +6,7 @@ import type { Service } from '@profitstudio/booking-engine';
  * terms, who it suits and what the client actually receives — and the two "featured" consultations
  * the first screen offers to visitors who are not sure where to begin.
  *
- * The engine (2.0.0-beta.4) has no service categories, no location field and no per-service metadata,
+ * The engine (2.0.0) has no service categories, no location field and no per-service metadata,
  * and a service's id is a database UUID this site cannot know when it is built — so everything here is
  * read from the service's own engine data:
  *

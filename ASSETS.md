@@ -37,7 +37,7 @@ always labelled as sample/illustrative; the owner is expected to replace them wi
 
 | Package | Licence | Notes |
 |---|---|---|
-| `@profitstudio/booking-engine` 2.0.0 | MIT | The booking engine and the packaged dashboard |
+| `@profitstudio/booking-engine` 2.0.1 | MIT | The booking engine and the packaged dashboard |
 | `react`, `react-dom` | MIT | |
 | `@fontsource/cormorant-garamond` | OFL-1.1 | Typeface (Cormorant Garamond — © 2015 The Cormorant Project Authors) |
 | `@fontsource/manrope` | OFL-1.1 | Typeface (Manrope — © 2018 The Manrope Project Authors) |
